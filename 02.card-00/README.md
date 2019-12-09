@@ -1,3 +1,3 @@
-# 01. Card 00
+# 02. Card 00
 
 🎬Youtube: https://youtu.be/gHFWmJRJiQQ
