@@ -5,3 +5,4 @@
 ### 🎬 Videos 
 
 - [01. Sign-in Form](https://youtu.be/9ehzH3uFB6g)
+- [02. Card 00](https://youtu.be/gHFWmJRJiQQ)
