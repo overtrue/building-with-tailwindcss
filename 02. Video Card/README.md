@@ -1,3 +1,3 @@
-# 02. Card 00
+# 02. Video Card
 
 🎬Youtube: https://youtu.be/gHFWmJRJiQQ
