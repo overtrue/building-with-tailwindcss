@@ -4,6 +4,7 @@
 
 ### 🎬 Videos
 
-- [01. Sign-in Form](https://youtu.be/9ehzH3uFB6g)
-- [02. Video Card](https://youtu.be/gHFWmJRJiQQ)
-- [03. Weibo Profile Card](https://youtu.be/6AkzVRkvxVQ)
+- [01. Sign-in form](https://youtu.be/9ehzH3uFB6g)
+- [02. Video card](https://youtu.be/gHFWmJRJiQQ)
+- [03. Weibo profile card](https://youtu.be/6AkzVRkvxVQ)
+- [04. Dashboard layout](https://youtu.be/vR_eKMWaC9w)

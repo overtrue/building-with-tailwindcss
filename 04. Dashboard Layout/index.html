@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>04. Dashboard Layout</title>
+    <link href="https://unpkg.com/tailwindcss@1.1.4/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-300 h-full text-gray-600 flex flex-col">
+    <div class="h-12 bg-white flex items-center justify-between shadow">
+      <div class="px-4">
+        <h1 class="text-gray-800 text-xl">ACME 管理中心</h1>
+      </div>
+      <div class="flex items-center px-4">
+        <div>超级管理员</div>
+        <div class="ml-2"><img src="./images/avatar-small.jpg" alt="" class="h-8 rounded-full border" /></div>
+      </div>
+    </div>
+
+    <div class="flex flex-1">
+      <div class="bg-gray-800 p-6 w-64">
+        <ul>
+          <li>
+            <a href="" class="flex items-center px-4 py-2 my-3 rounded hover:bg-gray-900 hover:text-gray-400 bg-gray-900 text-gray-400">
+              <svg class="h-4" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M19,20H5V4H7V7H17V4H19M12,2A1,1 0 0,1 13,3A1,1 0 0,1 12,4A1,1 0 0,1 11,3A1,1 0 0,1 12,2M19,2H14.82C14.4,0.84 13.3,0 12,0C10.7,0 9.6,0.84 9.18,2H5A2,2 0 0,0 3,4V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V4A2,2 0 0,0 19,2Z"
+                />
+              </svg>
+              <span class="ml-2">订单管理</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="flex items-center px-4 py-2 my-3 rounded hover:bg-gray-900 hover:text-gray-400">
+              <svg class="h-4" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M16,15H9V13H16V15M19,11H9V9H19V11M19,7H9V5H19V7M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M21,1A2,2 0 0,1 23,3V17C23,18.11 22.11,19 21,19H7A2,2 0 0,1 5,17V3C5,1.89 5.89,1 7,1H21M7,3V17H21V3H7Z"
+                />
+              </svg>
+              <span class="ml-2">内容管理</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="flex items-center px-4 py-2 my-3 rounded hover:bg-gray-900 hover:text-gray-400">
+              <svg class="h-4" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4Z"
+                />
+              </svg>
+              <span class="ml-2">附件管理</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="flex items-center px-4 py-2 my-3 rounded hover:bg-gray-900 hover:text-gray-400">
+              <svg class="h-4" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M16.5 15.5C18.22 15.5 20.25 16.3 20.5 16.78V17.5H12.5V16.78C12.75 16.3 14.78 15.5 16.5 15.5M16.5 14C14.67 14 11 14.92 11 16.75V19H22V16.75C22 14.92 18.33 14 16.5 14M9 13C6.67 13 2 14.17 2 16.5V19H9V17.5H3.5V16.5C3.5 15.87 6.29 14.34 9.82 14.5A5.12 5.12 0 0 1 11.37 13.25A12.28 12.28 0 0 0 9 13M9 6.5A1.5 1.5 0 1 1 7.5 8A1.5 1.5 0 0 1 9 6.5M9 5A3 3 0 1 0 12 8A3 3 0 0 0 9 5M16.5 8.5A1 1 0 1 1 15.5 9.5A1 1 0 0 1 16.5 8.5M16.5 7A2.5 2.5 0 1 0 19 9.5A2.5 2.5 0 0 0 16.5 7Z"
+                />
+              </svg>
+              <span class="ml-2">用户管理</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="flex items-center px-4 py-2 my-3 rounded hover:bg-gray-900 hover:text-gray-400">
+              <svg class="h-4" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11.22C19,12.92 18.5,14.65 17.65,16.17C16,14.94 13.26,14.5 12,14.5C10.74,14.5 8,14.94 6.35,16.17C5.5,14.65 5,12.92 5,11.22V6.3L12,3.18M12,6A3.5,3.5 0 0,0 8.5,9.5A3.5,3.5 0 0,0 12,13A3.5,3.5 0 0,0 15.5,9.5A3.5,3.5 0 0,0 12,6M12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8M12,16.5C13.57,16.5 15.64,17.11 16.53,17.84C15.29,19.38 13.7,20.55 12,21C10.3,20.55 8.71,19.38 7.47,17.84C8.37,17.11 10.43,16.5 12,16.5Z"
+                />
+              </svg>
+              <span class="ml-2">角色与权限</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="flex items-center px-4 py-2 my-3 rounded hover:bg-gray-900 hover:text-gray-400">
+              <svg class="h-4" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12,12H19C18.47,16.11 15.72,19.78 12,20.92V12H5V6.3L12,3.19M12,1L3,5V11C3,16.55 6.84,21.73 12,23C17.16,21.73 21,16.55 21,11V5L12,1Z"
+                />
+              </svg>
+              <span class="ml-2">审计日志</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="flex items-center px-4 py-2 my-3 rounded hover:bg-gray-900 hover:text-gray-400">
+              <svg class="h-4" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z"
+                />
+              </svg>
+              <span class="ml-2">系统设置</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <div class="p-8">
+          <h1 class="text-2xl text-gray-800">订单管理</h1>
+          <div class="bg-gray-500 h-4 mt-4"></div>
+          <div class="bg-gray-500 h-4 mt-4"></div>
+          <div class="bg-gray-500 h-4 mt-4"></div>
+          <div class="bg-gray-500 h-4 mt-4"></div>
+          <div class="bg-gray-500 h-4 mt-4"></div>
+          <div class="bg-gray-500 h-4 mt-4"></div>
+          <div class="bg-gray-500 h-4 mt-4"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
