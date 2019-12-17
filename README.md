@@ -8,7 +8,7 @@
 
 ### 🎬 Videos
 
-## [Youtube】(https://www.youtube.com/channel/UCIV5EgNSsqNoLirxMlcnubQ)
+## [Youtube](https://www.youtube.com/channel/UCIV5EgNSsqNoLirxMlcnubQ)
 
 - [01. Sign-in form](https://youtu.be/9ehzH3uFB6g)
 - [02. Video card](https://youtu.be/gHFWmJRJiQQ)
