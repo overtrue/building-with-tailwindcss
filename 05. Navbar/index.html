@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>05. Navbar</title>
+    <link href="https://unpkg.com/tailwindcss@1.1.4/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      nav a {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        padding: 0 15px;
+      }
+      nav a:hover {
+        color: #fff;
+      }
+      nav li > ul {
+        background: #2d3748;
+        position: absolute;
+        overflow: hidden;
+        min-width: 160px;
+        opacity: 0;
+        visibility: hidden;
+        transition: ease all 0.3s;
+      }
+      nav li > ul a {
+        line-height: 40px;
+      }
+      nav li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-300 text-sm">
+    <nav class="flex items-center justify-between bg-gray-800 text-gray-500 px-4 h-12">
+      <div class="flex items-center h-full">
+        <div>😋Happy Cloud</div>
+        <ul class="ml-4 flex items-stretch h-full">
+          <li>
+            <a href="">产品</a>
+            <ul>
+              <li><a href="">对象存储</a></li>
+              <li><a href="">私有云存储</a></li>
+              <li><a href="">融合 CDN</a></li>
+              <li><a href="">内容安全</a></li>
+              <li><a href="">边缘计算平台</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">解决方案</a>
+            <ul>
+              <li><a href="">短视频解决方案</a></li>
+              <li><a href="">视频直播解决方案</a></li>
+              <li><a href="">视频点播解决方案</a></li>
+              <li><a href="">新媒体解决方案</a></li>
+              <li><a href="">私有云行业解决方案</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">活动与合作</a>
+            <ul>
+              <li><a href="">合伙人计划</a></li>
+              <li><a href="">技术大会</a></li>
+              <li><a href="">开源项目扶持计划</a></li>
+              <li><a href="">企业扶持方案</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">新闻动态</a>
+          </li>
+          <li>
+            <a href="">关于我们</a>
+            <ul>
+              <li><a href="">公司介绍</a></li>
+              <li><a href="">社会招聘</a></li>
+              <li><a href="">校园招聘</a></li>
+              <li><a href="">联系我们</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="flex items-center">
+        <div>超级管理员</div>
+        <img src="./images/avatar-small.jpg" alt="" class="h-8 w-8 rounded-full border-2 ml-2" />
+      </div>
+    </nav>
+  </body>
+</html>
