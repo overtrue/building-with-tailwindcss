@@ -15,6 +15,7 @@
 - [03. Weibo profile card](https://youtu.be/6AkzVRkvxVQ)
 - [04. Dashboard layout](https://youtu.be/vR_eKMWaC9w)
 - [05. Navbar](https://youtu.be/arIgqc_4nLU)
+- [06. Property Card](https://youtu.be/COVOzTcUrHM)
 
 ## [Bilibili](https://space.bilibili.com/98752395)
 
@@ -23,5 +24,6 @@
 - [03. 微博个人资料卡](https://www.bilibili.com/video/av78940181)
 - [04. 后台布局](https://www.bilibili.com/video/av79170191)
 - [05. 导航菜单制作](https://www.bilibili.com/video/av79673925)
+- [06. 房产信息卡片](https://www.bilibili.com/video/av80681363)
 
 欢迎订阅和转发，爱你 🤟
