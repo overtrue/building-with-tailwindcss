@@ -16,6 +16,7 @@
 - [04. Dashboard layout](https://youtu.be/vR_eKMWaC9w)
 - [05. Navbar](https://youtu.be/arIgqc_4nLU)
 - [06. Property Card](https://youtu.be/COVOzTcUrHM)
+- [07. Cards](https://youtu.be/_i5w6CuJEaI)
 
 ## [Bilibili](https://space.bilibili.com/98752395)
 
@@ -25,5 +26,6 @@
 - [04. 后台布局](https://www.bilibili.com/video/av79170191)
 - [05. 导航菜单制作](https://www.bilibili.com/video/av79673925)
 - [06. 房产信息卡片](https://www.bilibili.com/video/av80681363)
+- [07. 响应式卡片列表](https://www.bilibili.com/video/av82772190/)
 
 欢迎订阅和转发，爱你 🤟
