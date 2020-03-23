@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="h-64">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>08. Modal</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-200 bg-no-repeat bg-cover text-sm" style="background-image: url(./images/github.jpg);">
+    <div class="flex justify-center">
+      <div class="bg-gray-900 fixed inset-0 opacity-25"></div>
+      <div class="border border-gray-600 bg-white max-w-md w-full mt-24 z-10 rounded shadow-lg overflow-hidden">
+        <div class="flex justify-between items-center p-4">
+          <div class="font-medium">Are you absolutely sure?</div>
+          <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true">
+            <path
+              fill-rule="evenodd"
+              d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <div class="bg-yellow-200 text-yellow-700 border-t border-b p-4">Unexpected bad things will happen if you don’t read this!</div>
+          <div class="p-4  border-b border-red-500">
+            <p>
+              This action cannot be undone. This will permanently delete the overtrue/laravel-skeleton repository, wiki, issues, and
+              comments, and remove all collaborator associations.
+            </p>
+            <p class="mt-2">Please type overtrue/laravel-skeleton to confirm.</p>
+            <input
+              type="text"
+              class="border shadow-inner w-full my-2 rounded-sm px-2 py-1 focus:outline-none focus:shadow-outline focus:border-blue-500"
+            />
+            <button class="border bg-gray-100 px-2 py-1 rounded-sm w-full text-red-300 font-medium" disabled>
+              I understand the consequences, delete this repository
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

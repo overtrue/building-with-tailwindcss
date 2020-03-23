@@ -17,6 +17,7 @@
 - [05. Navbar](https://youtu.be/arIgqc_4nLU)
 - [06. Property Card](https://youtu.be/COVOzTcUrHM)
 - [07. Cards](https://youtu.be/_i5w6CuJEaI)
+- [08. Modal](https://youtu.be/_zQLAz5WoQA)
 
 ## [Bilibili](https://space.bilibili.com/98752395)
 
@@ -27,5 +28,6 @@
 - [05. 导航菜单制作](https://www.bilibili.com/video/av79673925)
 - [06. 房产信息卡片](https://www.bilibili.com/video/av80681363)
 - [07. 响应式卡片列表](https://www.bilibili.com/video/av82772190/)
+- [08. 弹窗](https://www.bilibili.com/video/BV1p7411U7yW/)
 
 欢迎订阅和转发，爱你 🤟
